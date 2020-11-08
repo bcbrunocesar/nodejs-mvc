@@ -1,0 +1,5 @@
+class AddPokemonController {
+
+}
+
+export { AddPokemonController };

@@ -1,0 +1,5 @@
+class UpdatePokemonController {
+
+}
+
+export { UpdatePokemonController };

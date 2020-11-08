@@ -1,0 +1,5 @@
+class DeletePokemonController {
+
+}
+
+export { DeletePokemonController };

@@ -1,0 +1,5 @@
+class GetAllTrainersController {
+
+}
+
+export { GetAllTrainersController };
