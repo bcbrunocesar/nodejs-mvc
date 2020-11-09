@@ -1,2 +1,2 @@
-export * from './pokemon-controller';
-export * from './trainer-controller';
+export * from './pokemon';
+export * from './trainer';

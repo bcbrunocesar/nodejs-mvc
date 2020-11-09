@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import { AbstractBaseController } from './AbstractBaseController';
 
 abstract class AbstractBaseGetController extends AbstractBaseController {  
