@@ -1,17 +1,18 @@
 import { Request, Response } from 'express';
 import { AbstractBaseGetController } from '../base-controller/AbstractBaseGetController';
-import { GetAllPokemonsRepository } from '../../repositories/pokemon/GetAllPokemonsRepository';
+import { PokemonRepository } from '../../repositories/pokemon/PokemonRepository';
+import { Routes } from '../../routes/Routes';
 
 class GetAllPokemonsController extends AbstractBaseGetController {
 
   constructor() {
-    super('/pokemons');
+    super(Routes.pokemon.getAll);
   }
 
   protected execute(req: Request, res: Response): any {
-    const getAllPokemonsRepository = new GetAllPokemonsRepository();
+    const pokemonRepository = new PokemonRepository();
 
-    getAllPokemonsRepository.execute().then((data) => {
+    pokemonRepository.getAll().then((data) => {
       return res.json(data);
     }).catch((error) => {
       console.error(`GetAllPokemonsController [error]: ${error}`);

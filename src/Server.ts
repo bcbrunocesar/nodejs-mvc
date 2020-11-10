@@ -3,7 +3,7 @@ import * as controllers from './controllers';
 
 const application = new Application([
   new controllers.GetAllPokemonsController(),
-  // new controllers.SearchPokemonController()
+  new controllers.SearchPokemonController()
 ], 3333);
 
 application.listen();

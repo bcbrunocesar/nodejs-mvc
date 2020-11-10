@@ -1,0 +1,28 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "pikachu",
+      "type": "eletric",
+      "power": 83
+    },
+    {
+      "id": 2,
+      "name": "charizard",
+      "type": "fire",
+      "power": 91
+    },
+    {
+      "id": 3,
+      "name": "turtoide",
+      "type": "water",
+      "power": 82
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "type": "fire",
+      "power": 83
+    }
+  ]
+}

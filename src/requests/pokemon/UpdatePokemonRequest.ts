@@ -1,4 +1,4 @@
-export default interface PokemonResponse {
+export default interface UpdatePokemonRequest {
   id: number;
   name: string;
   type: string;
